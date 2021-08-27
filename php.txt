@@ -1,6 +1,6 @@
 # PHP: https://www.itzgeek.com/post/how-to-install-linux-nginx-mariadb-php-lemp-stack-in-ubuntu-20-04/
 
-sudo apt install php-fpm php-mysql php-cli php-dom php-simplexml php-ssh2 php-xml php-xmlreader php-curl php-exif php-ftp php-gd php-iconv php-imagick php-json php-mbstring php-posix php-sockets php-tokenizer
+sudo apt install php-common php-xml php-fpm php-mysql php-cli php-ssh2 php-curl php-gd php-imagick php-json php-mbstring php-tokenizer
 
 sudo vim /etc/php/7.4/fpm/pool.d/www.conf # use current version
 	listen = /run/php/php7.4-fpm.sock -> listen = 127.0.0.1:9000
